@@ -10,10 +10,10 @@ from agno.embedder.sentence_transformer import SentenceTransformerEmbedder
 
 # Load webpage to the knowledge base
 agent_knowledge = UrlKnowledge(
-    urls=["https://gustavorsantos.me/?page_id=47"],
+    urls=["https://www.example.com"],
     vector_db=LanceDb(
         uri="tmp/lancedb",
-        table_name="projects",
+        table_name="table_name",
         search_type=SearchType.hybrid,
         # Use Sentence Transformer for embeddings
         embedder=SentenceTransformerEmbedder(),
@@ -26,7 +26,7 @@ agent = Agent(
     instructions=[
         "Use tables to display data.",
         "Search your knowledge before answering the question.",
-        "Only inlcude the content from the agent_knowledge base table 'projects'",
+        "Only include the content from the agent_knowledge base table 'projects'",
         "Only include the output in your response. No other text.",
     ],
     knowledge=agent_knowledge,
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # Set recreate to True to recreate the knowledge base if needed
     agent.knowledge.load(recreate=False)
     agent.print_response(
-        "What are the two books listed in the 'agent_knowledge'",
+        "What are the books listed in the 'agent_knowledge'",
         stream=True,
         show_full_reasoning=True,
         stream_intermediate_steps=True,
