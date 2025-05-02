@@ -4,11 +4,12 @@ from agno.agent import Agent
 from agno.models.google import Gemini
 from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.tools.newspaper4k import Newspaper4kTools
+from agno.tools.file import FileTools
 
 # Initialize the research agent with advanced journalistic capabilities
 research_agent = Agent(
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
-    tools=[DuckDuckGoTools(), Newspaper4kTools()],
+    tools=[DuckDuckGoTools(), Newspaper4kTools(), FileTools(save_files=True)],
     description=dedent("""\
         You are an elite investigative journalist with decades of experience at the New York Times.
         Your expertise encompasses: 📰
@@ -96,7 +97,7 @@ research_agent = Agent(
 # Example usage with detailed research request
 if __name__ == "__main__":
     research_agent.print_response(
-        "Research the top two python packages to create AI Agents.",
+        "Research the must know about LangChain vs. LangGraph. Save the output to a file named 'article.md'.",
         stream=True,
     )
 
