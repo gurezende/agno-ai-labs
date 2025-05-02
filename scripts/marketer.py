@@ -21,7 +21,3 @@ agent = Agent(
 agent.print_response("""Write a short post for instagram with tips and tricks that positions me as 
                      an authority in healthy eating and save it to a file named 'post.txt'.""",
                      markdown=True)
-
-# Reading a file
-# agent.print_response("Read the file 'pyproject.toml' and tell me the content in the 'dependencies' section.",
-#                      markdown=True)
