@@ -86,11 +86,14 @@ def create_agent(apy_key):
 
                             Using the tools provided, create a data dictionary in JSON format that includes the below information:
                             {<ColNumber>: {ColName: <ColName>, DataType: <DataType>, Description: <Description>}}
+
+                            If you are unable to determine the data type or description of a column, return 'N/A' for that column for the missing values.
                             \
                             """),
         tools=[convert_to_csv,
                FileTools(read_files=True, save_files=True),
                add_comments_to_header],
+        retries=2,
         show_tool_calls=True
         )
 
