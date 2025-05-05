@@ -24,6 +24,7 @@ dependencies = [
     "pylance>=0.26.1",
     "sentence-transformers>=4.1.0",
     "sqlalchemy>=2.0.40",
+    "streamlit>=1.45.0",
     "tantivy>=0.22.2",
     "youtube-transcript-api>=1.0.3",
 ]
