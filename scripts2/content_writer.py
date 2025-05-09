@@ -73,4 +73,4 @@ writing_team = Team(
 )
 
 # Run the team with a task
-writing_team.print_response("Create an article about the topic: 'Why You Can't Find Freelance Jobs.'")
+writing_team.print_response("Create an article about the topic: 'Here is how to Write a Proposal to Be Noticed in Upwork'")

@@ -16,5 +16,5 @@ agent = Agent(
     )
 
 # Run agent
-agent.print_response("Summarize: 'https://www.wired.com/story/openai-adds-shopping-to-chatgpt/'", markdown=True)
+agent.print_response("Summarize: 'https://www.forbes.com/councils/forbestechcouncil/2025/04/15/19-expert-data-analysis-strategies-for-targeted-tech-solutions/?hss_channel=lcp-11075183'", markdown=True)
 
