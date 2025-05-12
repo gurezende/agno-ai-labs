@@ -16,5 +16,5 @@ agent = Agent(
     )
 
 # Run agent
-agent.print_response("Summarize: 'https://www.forbes.com/councils/forbestechcouncil/2025/04/15/19-expert-data-analysis-strategies-for-targeted-tech-solutions/?hss_channel=lcp-11075183'", markdown=True)
+agent.print_response("Summarize: 'https://www.confident-ai.com/blog/llm-evaluation-metrics-everything-you-need-for-llm-evaluation'", markdown=True)
 

@@ -18,7 +18,7 @@ researcher = Agent(
                 Research about {topic} and use the content you find in the Internet to make an outline of an article.
                 \
                 """),
-    expected_output="An outline of the article.",
+    expected_output="An outline of the article to be passed to the 'Writer'.",
     tools=[GoogleSearchTools()],
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY"))
 )
@@ -30,9 +30,11 @@ writer = Agent(
                 Using the outline you received from the 'Researcher', write a blog post article about: {topic}.
                 Write a clear, and engaging content, using a neutral to fun tone. Don't exagerate.
                 Include the links, references, and sources.
-                Save the article to a file named 'article.md'.              
+                Save the article to a file named 'article.md'.
+                If you saved the article, end the job and send it to the 'Editor'.            
                 \
                 """),
+    tools=[FileTools(read_files=True, save_files=True)],
     expected_output=dedent("""\
                            A blog post article in markdown format with approximately 700 words with the following structure:
                            - Title
@@ -52,8 +54,10 @@ editor = Agent(
                 Once you receive the article from the 'Writer', check it for grammar, punctuation, and spelling errors.
                 If you find any, correct them.
                 Make sure to use the style of the writer.
-                Fact check the links and sources.
-                Perform a maximum of 2 rounds of checking, save the revised article to a file named 'article.md' and end the job.   
+                Fact check the links and sources. 2 times is enough.
+                Keep track of how many checks you did, so you don't fall into a loop of checking.
+                Once you can't find any errors, save the revised article to a file named 'article.md' and end the job.
+                If you saved the article, end the job.
                 \
                 """),
     expected_output= "A revised blog post article in markdown format saved to a file named 'article.md'.",
@@ -65,7 +69,7 @@ writing_team = Team(
     name="Writing Team",
     mode="coordinate",
     members=[researcher, writer, editor],
-    instructions="You are a team of content writers that work together to create high-quality blog posts about {topic}.",
+    instructions="You are a team of content writers that work together to create high-quality blog posts about {topic}.Read and save no more than 2 times.",
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
     tools=[FileTools(read_files=True, save_files=True)],
     expected_output="A blog post article with approximately 700 words about {topic} saved to a file named 'article.md'.",
@@ -73,4 +77,4 @@ writing_team = Team(
 )
 
 # Run the team with a task
-writing_team.print_response("Create an article about the topic: 'Here is how to Write a Proposal to Be Noticed in Upwork'")
+writing_team.print_response("Create an article about the topic: 'What are the least competitive jobs in the Freelance market'.")
