@@ -2,9 +2,12 @@
 from agno.agent import Agent
 from agno.models.google import Gemini
 import os
+from pydantic import BaseModel, Field
+
 # Import Guard and Validator
-from guardrails.hub import RestrictToTopic
 from guardrails import Guard
+from guardrails.hub import RestrictToTopic
+
 
 # Setup Guard
 guard = Guard().use(
@@ -13,7 +16,7 @@ guard = Guard().use(
         invalid_topics=["stocks"],
         disable_classifier=True,
         disable_llm=False,
-        on_fail="exception"
+        on_fail="filter"
     )
 )
 
@@ -26,9 +29,15 @@ agent = Agent(
     markdown= True
     )
 
-# Run agent
-response = agent.run("What's the ticker symbol for Apple?")
-# guard.validate(response.content)
+# Run the agent
+response = agent.run("What's the ticker symbol for Apple?").content
 
-# Print response
-print(response.content)
+# Run agent with validation
+validation_step = guard.validate(response)
+
+
+# Print validated response
+if validation_step.validation_passed:
+    print(response)
+else:
+    print("Validation Failed", validation_step.validation_summaries[0].failure_reason)

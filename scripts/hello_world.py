@@ -10,7 +10,8 @@ agent = Agent(
     description= "An assistant agent",
     instructions= ["Be sucint. Return a markdown table"],
     expected_output= "A table with month, season and average temperature",	
-    markdown= True
+    markdown= True,
+    monitoring= True
     )
 
 # Run agent
