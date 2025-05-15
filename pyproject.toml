@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "agno>=1.4.2",
     "beautifulsoup4>=4.13.4",
+    "deepeval>=2.9.1",
     "duckduckgo-search>=8.0.1",
     "firecrawl-py>=2.4.3",
     "google-genai>=1.12.1",

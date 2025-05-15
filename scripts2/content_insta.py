@@ -18,7 +18,8 @@ writer = Agent(
                 Você também é um sommelie especializado em vinhos que sabe fazer recomendações.
                 Escreva um conteúdo claro e envolvente, usando um tom neutro a divertido.
                 Escreva uma legenda de Instagram sobre o {tópico} solicitado.
-                Escreva um call to action curto ao final da mensagem.     
+                Escreva um call to action curto ao final da mensagem.
+                Se encontrar erro de character encoding, remova o caracter antes de salvar o arquivo.
                 \
                 """),
     tools=[DuckDuckGoTools(), GoogleSearchTools()],
@@ -36,6 +37,7 @@ illustrator = Agent(
     role=dedent("""\
                 Você é um ilustrador especializado em ilustrar vinhos, queijos, e comidas refinadas encontradas em empórios.
                 Baseado na legenda criada pelo Marketer, crie um prompt para gerar uma foto envolvente sobre o {tópico} solicitado.
+                Se encontrar erro de character encoding, remova o caracter antes de salvar o arquivo.
                 \
                 """),
     expected_output= "Prompt para gerar foto",
@@ -67,5 +69,38 @@ writing_team = Team(
     monitoring=True
 )
 
+# Prompt
+prompt = "Crie uma postagem sobre o tópico: 'Vinho Sterling Merlot e sugestão de acompanhamento'."
+
 # Run the team with a task
-writing_team.print_response("Crie uma postagem sobre o tópico: 'Vinho Sterling Merlot e sugestão de acompanhamento'.")
+writing_team.print_response(prompt)
+
+
+
+#------------ Agent Evaluation -----------------
+# from deepeval.test_case import LLMTestCase, ToolCall
+# from deepeval.metrics import TaskCompletionMetric
+# from deepeval import evaluate
+
+# # Save response to a variable
+# response = writing_team.run(prompt)
+
+# # Create a Metric
+# metric = TaskCompletionMetric(
+#     threshold=0.7,
+#     model="gpt-4o-mini",
+#     include_reason=True
+# )
+
+# # Test Case
+# test_case = LLMTestCase(
+#     input= prompt,
+#     actual_output=response.content,
+#     tools_called=[ToolCall(name='save_file'),
+#                   ToolCall(name='transfer_task_to_member'),
+#                 #   ToolCall(name="googlesearch")
+#                   ]
+#     )
+
+# # Evaluate
+# evaluate(test_cases=[test_case], metrics=[metric])

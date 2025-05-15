@@ -1,0 +1,13 @@
+- Postagem
+Com um paladar que encanta e um aroma que conquista, o Vinho Sterling Merlot é a escolha perfeita para quem busca uma experiência sensorial inesquecível. Produzido com as melhores uvas Merlot, este vinho apresenta notas de frutas vermelhas maduras, como cereja e ameixa, complementadas por toques sutis de especiarias e carvalho.
+
+Para harmonizar, sugerimos um acompanhamento clássico e sofisticado: um queijo brie cremoso com geleia de frutas vermelhas. A combinação da suavidade do queijo, a doçura da geleia e a complexidade do Merlot é simplesmente perfeita.
+
+Descubra essa experiência!
+
+- Prompt para gerar uma ilustração
+Ok, aqui está um prompt para gerar uma ilustração sobre Vinho Sterling Merlot e queijo brie cremoso com geleia de frutas vermelhas:
+
+```
+Uma ilustração elegante e convidativa de uma garrafa de Vinho Sterling Merlot ao lado de uma fatia de queijo brie cremoso coberta com geleia de frutas vermelhas. A garrafa de vinho deve estar ligeiramente inclinada, com o rótulo visível e bem iluminado. O queijo brie deve apresentar uma textura macia e cremosa, com a geleia de frutas vermelhas escorrendo delicadamente pelas bordas. A iluminação deve ser suave e quente, criando uma atmosfera acolhedora e sofisticada. Detalhes como gotas de vinho na garrafa e a textura do queijo devem ser renderizados com alta precisão. O fundo deve ser neutro e levemente desfocado, para não distrair a atenção dos elementos principais. A composição geral deve transmitir uma sensação de prazer e indulgência gastronômica.
+```
