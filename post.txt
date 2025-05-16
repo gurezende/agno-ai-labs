@@ -1,13 +1,14 @@
-- Postagem
-Com um paladar que encanta e um aroma que conquista, o Vinho Sterling Merlot é a escolha perfeita para quem busca uma experiência sensorial inesquecível. Produzido com as melhores uvas Merlot, este vinho apresenta notas de frutas vermelhas maduras, como cereja e ameixa, complementadas por toques sutis de especiarias e carvalho.
+- Post
 
-Para harmonizar, sugerimos um acompanhamento clássico e sofisticado: um queijo brie cremoso com geleia de frutas vermelhas. A combinação da suavidade do queijo, a doçura da geleia e a complexidade do Merlot é simplesmente perfeita.
+Healthy eating doesn't have to be complicated!  Here are three simple tips to boost your well-being:
 
-Descubra essa experiência!
+1. Prioritize whole, unprocessed foods: Fill your plate with fruits, vegetables, lean proteins, and whole grains. 
+2. Hydrate consistently:  Water is essential for countless bodily functions. Aim for at least eight glasses a day.
+3. Mindful eating: Pay attention to your body's hunger and fullness cues. Savor your meals and avoid distractions.
 
-- Prompt para gerar uma ilustração
-Ok, aqui está um prompt para gerar uma ilustração sobre Vinho Sterling Merlot e queijo brie cremoso com geleia de frutas vermelhas:
+Making small, sustainable changes is key. What are your favorite healthy eating habits?
 
-```
-Uma ilustração elegante e convidativa de uma garrafa de Vinho Sterling Merlot ao lado de uma fatia de queijo brie cremoso coberta com geleia de frutas vermelhas. A garrafa de vinho deve estar ligeiramente inclinada, com o rótulo visível e bem iluminado. O queijo brie deve apresentar uma textura macia e cremosa, com a geleia de frutas vermelhas escorrendo delicadamente pelas bordas. A iluminação deve ser suave e quente, criando uma atmosfera acolhedora e sofisticada. Detalhes como gotas de vinho na garrafa e a textura do queijo devem ser renderizados com alta precisão. O fundo deve ser neutro e levemente desfocado, para não distrair a atenção dos elementos principais. A composição geral deve transmitir uma sensação de prazer e indulgência gastronômica.
-```
+#healthyeating #nutrition #wellbeing #healthylifestyle #foodie #healthtips #healthyrecipes #eatclean #nutritiontips #weightloss #healthyfood
+
+- Prompt for the picture
+A picture of a colorful and healthy meal.  Focus on vibrant ingredients and visually appealing presentation.
