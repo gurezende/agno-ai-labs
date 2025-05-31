@@ -1,21 +1,29 @@
-WHAT IS THE JOB
-The Data Scientist is responsible for designing and executing effective data science initiatives, machine learning modeling, and business intelligence analysis across all our operations. This role will work closely with researchers, engineers, developers, and business stakeholders.
- 
-WHY WORK WITH US
-Competitive Salary: We've done our research and pay generously to attract the best to join our team. That's why we offer all employees the midpoint right from the start. There are no negotiations and no hassle, and you can be confident that you are being valued and offered an equitable salary. See below for our offer rates based on your geography.
+At Caterpillar, we rely on insightful data to guide our strategy and solutions. We are seeking a strategic and visionary Lead Data Scientist to drive data-driven decision-making across the organization, unlock new business opportunities, and deliver measurable value by leveraging advanced analytics, machine learning, AI and Gen AI.
 
-Taking Care of You Allowance: All AVID employees (that’s right, ALL employees) receive an extra $10,000 annually to support them in the most meaningful ways: housing costs, transportation, family expenses— whatever your needs may be.
+What You Will Do
 
-Retirement Planning: AVID Center provides a 10% salary contribution to a 403(b) retirement plan, beginning after 90 days of full-time employment.
+Act as a thought leader and advisor to senior leadership, stakeholders and cross-functional teams on opportunities to leverage data science to drive business value.
+Identify relevant data sources working with data engineering and analytics teams to mine data for business needs, and collect large structured and unstructured datasets and variables.
+Lead the design, development, and deployment of machine learning models and AI solutions to solve a diverse set of complex business problems (e.g. customer behavior prediction, defect minimization, pricing optimization, demand forecasting, and supply chain network optimization.
+Develop and implement scalable data science frameworks, tools, and methodologies to deliver predictive and prescriptive insights.
+Partner closely with cross-functional teams, including Commercial, Finance, Product Management, Manufacturing, Supply chain & Procurement, to identify high-impact use cases and prioritize data science initiatives.
+Stay abreast of emerging trends, technologies, and best practices in data science, machine learning, and AI, and identify opportunities for their adoption at Caterpillar.
+Establish best practices for model development, validation, deployment, and monitoring to ensure robustness, scalability, and business impact.
+Foster strong relationships with business leaders to ensure alignment between data science initiatives and organizational objectives. 
+Ensure compliance with data privacy, security, and ethical standards when designing and deploying machine learning models.
+Identify and mitigate risks associated with data science projects and the use of AI technologies.
 
-Flexibility in Work Location: This position may work 100% remote in any of the four times zones in the contiguous United States.
+What You Have (Core Skills)
 
-Generous Paid Time Off (PTO): This position is eligible for 22 days of PTO per year, with 12 paid holidays plus a winter break in between Christmas and New Year’s Day.
+Business Statistics: Deep expertise in statistical modeling, hypothesis testing, decision tree, Clustering Techniques, Supervised Learning – Regression and classification, Tree-based Models for predictive analytics, Natural Language Processing, Recommendation System, Deep Learning Techniques , Time Series Forecasting, and other AI/ML techniques.
+Programming Languages: Hands-on experience with tools and frameworks such as Python, R or similar.
+Machine Learning & experience with data visualization tools.
+Query and Database Access Tools: Strong understanding of data engineering principles including ETL pipelines, data warehousing, and cloud platforms such as AWS, Azure, or Google Cloud.
+Accuracy and Attention to Detail: Excellent communication and storytelling skills, with the ability to convey technical concepts to non-technical stakeholders and influence decision-making at all levels of the organization.
+Analytical Thinking: Demonstrated ability to manage competing priorities, navigate ambiguity, and deliver results in a fast-paced environment.
 
-Continued education opportunities: All full-time employees with at least 1 year of continuous AVID Center service are eligible for $5,250 per calendar year in tuition reimbursement for qualifying coursework or certification.
+Top Candidates Will Also Have
 
-Company-Provided Equipment: Our home office set-up includes a laptop, dock, and extra monitor, with other amenities available on request.
-
-Health and Welfare Plans to Support Every Aspect of Your Well-Being: AVID Center offers several benefits plans through our provider, Cigna, and greatly subsidizes the cost of these plans
-
-Connect in Person: A yearly All-Staff gathering will allow you to connect in person with the entire AVID team.
+An advanced degree in Mathematics, Data Science, Computer Science or other numerate discipline
+Four to Six years experience in data science
+Exceptional problem-solving skills, with the ability to break down complex challenges into actionable solutions.

@@ -10,7 +10,7 @@ from agno.tools.googlesearch import GoogleSearchTools
 
 
 # ------------------------- Define the Topic --------------------------------
-topic = "A practical guide to Fourier Transformation in Time Series Analysis"
+topic = "When to use Python Custom Functions and When to use Classes"
 # ---------------------------------------------------------------------------
 
 
@@ -30,8 +30,9 @@ researcher = Agent(
     expected_output="An outline of the article to be passed to the 'Writer'.",
     tools=[GoogleSearchTools()],
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    add_name_to_instructions=True,
     exponential_backoff=True,
-    delay_between_retries=2
+    delay_between_retries=5
 )
 
 # Researcher Agent: look for content related to the topic and create an outline
@@ -46,10 +47,12 @@ coder = Agent(
                 \
                 """),
     expected_output="A script to be passed to the 'Writer'.",
+    add_name_to_instructions=True,
     tools=[GoogleSearchTools()],
+           #FileTools(read_files=True, save_files=True)],
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
     exponential_backoff=True,
-    delay_between_retries=2
+    delay_between_retries=5
 )
 
 # Writer Agent: write the article
@@ -80,6 +83,7 @@ writer = Agent(
                 \
                 """),
     tools=[FileTools(read_files=True, save_files=True)],
+    add_name_to_instructions=True,
     expected_output=dedent("""\
                            A blog post article in markdown format with approximately 700 words with the following structure:
                            - Title
@@ -112,6 +116,7 @@ editor = Agent(
                 """),
     expected_output= "A revised blog post article in markdown format saved to a file named 'coding_article.md'.",
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    add_name_to_instructions=True,
     exponential_backoff=True,
     delay_between_retries=5
 )
@@ -128,6 +133,7 @@ illustrator = Agent(
     tools=[FileTools(read_files=True, save_files=True)],
     expected_output= "Text file with Prompt for AI to generate a picture",
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    add_name_to_instructions=True,
     exponential_backoff=True,
     delay_between_retries=5
 )
@@ -149,9 +155,10 @@ writing_team = Team(
                         """),
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
     expected_output="A blog post article with approximately 700 words about {topic} saved to a file named 'coding_article.md' and a prompt for AI to generate a picture saved to a file named 'prompt.txt'.",
+    enable_agentic_context=True,
     markdown=True,
     monitoring=True,
-    show_tool_calls=True
+    show_members_responses=True
 )
 
 # Run the team with a task
