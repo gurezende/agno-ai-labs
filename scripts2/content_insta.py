@@ -23,6 +23,7 @@ writer = Agent(
                 \
                 """),
     tools=[DuckDuckGoTools(), GoogleSearchTools()],
+    add_name_to_instructions=True,
     expected_output=dedent("""\
                            Legenda para Instagram sobre o {tópico} solicitado.
                            \
@@ -41,6 +42,7 @@ illustrator = Agent(
                 \
                 """),
     expected_output= "Prompt para gerar foto",
+    add_name_to_instructions=True,
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
     exponential_backoff=True,
     delay_between_retries=2
@@ -65,6 +67,7 @@ writing_team = Team(
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
     tools=[FileTools()],
     expected_output="Um arquivo de texto 'post.txt' com o postagem e o prompt para gerar uma ilustração.",
+    enable_agentic_context=True,
     markdown=True,
     monitoring=True
 )

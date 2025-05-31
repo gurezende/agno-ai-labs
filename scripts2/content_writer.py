@@ -29,6 +29,7 @@ researcher = Agent(
     expected_output="An outline of the article to be passed to the 'Writer'.",
     tools=[GoogleSearchTools()],
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    add_name_to_instructions=True,
     exponential_backoff=True,
     delay_between_retries=2
 )
@@ -72,6 +73,7 @@ writer = Agent(
                            \
                            """),
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    add_name_to_instructions=True,
     exponential_backoff=True,
     delay_between_retries=10
 )
@@ -92,6 +94,7 @@ editor = Agent(
                 """),
     expected_output= "A revised blog post article in markdown format saved to a file named 'article.md'.",
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    add_name_to_instructions=True,
     exponential_backoff=True,
     delay_between_retries=5
 )
@@ -108,6 +111,7 @@ illustrator = Agent(
     tools=[FileTools(read_files=True, save_files=True)],
     expected_output= "Text file with Prompt for AI to generate a picture",
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    add_name_to_instructions=True,
     exponential_backoff=True,
     delay_between_retries=5
 )
@@ -131,6 +135,7 @@ writing_team = Team(
     expected_output="A blog post article with approximately 700 words about {topic} saved to a file named 'article.md' and a prompt for AI to generate a picture saved to a file named 'prompt.txt'.",
     markdown=True,
     monitoring=True,
+    enable_agentic_context=True,
     show_tool_calls=True
 )
 
