@@ -1,31 +1,21 @@
-Currently, we are in search for a Senior Data Analyst who will deliver recommendations and actionable insights to key stakeholders to help drive revenue. 
+WHAT IS THE JOB
+The Data Scientist is responsible for designing and executing effective data science initiatives, machine learning modeling, and business intelligence analysis across all our operations. This role will work closely with researchers, engineers, developers, and business stakeholders.
+ 
+WHY WORK WITH US
+Competitive Salary: We've done our research and pay generously to attract the best to join our team. That's why we offer all employees the midpoint right from the start. There are no negotiations and no hassle, and you can be confident that you are being valued and offered an equitable salary. See below for our offer rates based on your geography.
 
-What You’ll Do
+Taking Care of You Allowance: All AVID employees (that’s right, ALL employees) receive an extra $10,000 annually to support them in the most meaningful ways: housing costs, transportation, family expenses— whatever your needs may be.
 
-Develop and implement data-driven strategies to refine market approaches, focusing on efficiency, growth, and customer engagement.
-Tackle complex, ambiguous challenges by designing innovative analytical and data-centric solutions.
-Contribute to the creation of predictive frameworks that enhance both strategic and operational efforts.
-Design and maintain data-driven insights through dashboards, reports, and analytical tools to support decision-making across various business functions.
-Collaborate with leadership and key stakeholders to establish and track critical performance indicators.
-Construct and optimize data structures and models using modern tools to enable seamless analytics and reporting.
+Retirement Planning: AVID Center provides a 10% salary contribution to a 403(b) retirement plan, beginning after 90 days of full-time employment.
 
-Must Haves
+Flexibility in Work Location: This position may work 100% remote in any of the four times zones in the contiguous United States.
 
-Proficiency in SQL
-Proficiency in any statistical programming language (i.e, Python or R)
-5+ years in doing analytics with a robust understanding of statistical concepts
-Experience working with BI tools (Sigma, Tableau, SiSense, Hex, or Looker etc)
-Experience building predictive/forecasting models
-Ability to work independently, and lead projects from start to finish
-Ability to handle multiple stakeholders, and prioritize competing requests
-Ability to identify and push for process improvements for the teams we support
-Ability to communicate technical concepts to both technical and non-technical audiences through visualizations and presentations
-Ability to partner with leadership and stakeholders across the company to understand business needs and how these can be addressed through analytics
-Experience supporting any GTM teams including Sales, Marketing, or Customer Success
+Generous Paid Time Off (PTO): This position is eligible for 22 days of PTO per year, with 12 paid holidays plus a winter break in between Christmas and New Year’s Day.
 
-Nice to Haves
+Continued education opportunities: All full-time employees with at least 1 year of continuous AVID Center service are eligible for $5,250 per calendar year in tuition reimbursement for qualifying coursework or certification.
 
-M.S. in Math, Statistics, or closely related quantitative field
-Experience with Snowflake and dbt
-Experience building supervised and unsupervised learning models
-Experience working in a B2B or SaaS company
+Company-Provided Equipment: Our home office set-up includes a laptop, dock, and extra monitor, with other amenities available on request.
+
+Health and Welfare Plans to Support Every Aspect of Your Well-Being: AVID Center offers several benefits plans through our provider, Cigna, and greatly subsidizes the cost of these plans
+
+Connect in Person: A yearly All-Staff gathering will allow you to connect in person with the entire AVID team.

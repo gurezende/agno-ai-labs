@@ -6,7 +6,7 @@ Innovative Data Scientist with over a decade of experience in machine learning, 
 
 SKILLS
 Programming Languages: Python, R, SQL
-AI & Machine Learning: Deep Learning, LLMs (BERT, RoBERTa, GPT-3.5), Transformer Architectures, Model Deployment, A/B Testing
+AI & Machine Learning: Deep Learning, LLMs (BERT, GPT variations), Transformer Architectures, Model Deployment, A/B Testing
 Big Data & Cloud Technologies: Apache Spark, Hadoop, Databricks
 Tools & Frameworks: Keras, PyTorch, MLFlow, FastAPI, Docker
 Data Visualization: Power BI, Tableau, Seaborn, Matplotlib
@@ -20,7 +20,7 @@ Projects with Artificial Intelligence
 Data Dictionary GenAI: Developed an AI-powered tool to generate data dictionaries using LLMs, improving data documentation efficiency. 
 Data Pipeline AI: An AI-powered application to interact with flight prices data stored in a PostgreSQL database. It offers two main functionalities: updating the database with new flight prices and querying the database using natural language through AI assistants.
 Agno AI Labs: Led a series of experiments with AI Agents, applying transformer-based architectures to various NLP tasks. 
-Retrieval-Augmented Generation (RAG): Implemented a Retrieval-Augmented Generation system combining LLMs with external files, providing a QA bot to interact with the uploaded file. 
+Retrieval-Augmented Generation (RAG): Implemented a Retrieval-Augmented Generation system combining LLMs with external files, providing a QA bot to interact with the uploaded file.
 Pipeline DuckDB and AI: Developed the ETL integrating an API to extract the data, transformed it with DuckDB for efficient data transformation and storage, and generated an automated report powered with AI for summarization and recommendations. 
 
 2020 – 2024
