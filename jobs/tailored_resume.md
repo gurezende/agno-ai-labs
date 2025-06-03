@@ -1,84 +1,80 @@
-# GUSTAVO R. SANTOS
+# Gustavo R. Santos
 
-**Data Scientist**  
-Apex, NC 27502  
-Mobile: (984) 238-6940  
-E-mail: gurezendes@gmail.com  
-Portfolio: [gustavorsantos.me](https://gustavorsantos.me)  
-LinkedIn: [linkedin.com/in/gurezende](https://linkedin.com/in/gurezende)  
-GitHub: [github.com/gurezende](https://github.com/gurezende)
+Data Scientist | Apex, NC 27502
+Mobile: (984) 238-6940
+E-mail: gurezendes@gmail.com
+Portfolio: [gustavorsantos.me](https://gustavorsantos.me)
+LinkedIn: [linkedin.com/in/gurezende](https://www.linkedin.com/in/gurezende)
 
 ---
 
-## PROFESSIONAL SUMMARY
+## Professional Summary
 
-Innovative Data Scientist with over a decade of expertise in developing and deploying machine learning and AI solutions that enhance business operations. Specializing in large language models (LLMs) and statistical modeling, my experience includes leading cross-functional teams to design and scale advanced AI-driven applications. Proficient in driving data science initiatives to meet strategic business goals while maintaining a strong focus on aligning technical direction with business strategies.
-
----
-
-## SKILLS
-
-- **Programming Languages:** Python, R, SQL
-- **AI & Machine Learning:** Deep Learning, Large Language Models (LLMs), Transformer Architectures, Model Deployment, A/B Testing
-- **Big Data & Cloud Technologies:** Apache Spark, Hadoop, Databricks
-- **Tools & Frameworks:** Keras, PyTorch, MLFlow, FastAPI, Docker
-- **Data Visualization:** Power BI, Tableau, Seaborn, Matplotlib
-- **Databases:** PostgreSQL, MySQL, DuckDB
-- **Others:** API Design, Data Pipeline Automation, Data Analysis
+Innovative Data Scientist with over a decade of experience in **end-to-end model development, data analysis, and collaboration**. Expert in **Python and Machine Learning** with over 5 years of hands-on expertise in designing and deploying advanced ML/AI solutions that solve complex business challenges. Proven ability to lead cross-functional teams and partner with data scientists and engineers to align AI initiatives with strategic business objectives. Skilled in **data presentation**, utilizing cloud services and databases for robust solutions.
 
 ---
 
-## EXPERIENCE
+## Skills
 
-### 2024 – 2025  
-**Projects with Artificial Intelligence**
+- **Programming Languages**: Python, R, SQL
+- **AI & Machine Learning**: Deep Learning, LLMs (BERT, GPT variations), Transformer Architectures, Model Deployment, A/B Testing
+- **Statistical & AI Methods**: Regression, Time Series, PCA, KMeans, Gaussian Mixture Model
+- **Big Data & Cloud Technologies**: Apache Spark, Hadoop, Databricks
+- **Tools & Frameworks**: Keras, PyTorch, MLFlow, FastAPI, Docker
+- **Data Visualization**: Power BI, Tableau, Seaborn, Matplotlib
+- **Databases**: PostgreSQL, MySQL, DuckDB
+- **Others**: API Design, Data Pipeline Automation, Data Analysis
 
-- **Data Dictionary GenAI:** Developed a revolutionary AI-based tool to automate the creation of data dictionaries using LLMs, significantly improving the efficiency of data documentation processes.
-- **Data Pipeline AI:** Created an AI-powered system to interact with flight pricing data in a PostgreSQL database, allowing natural language database queries and seamless updates.
-- **Agno AI Labs:** Led experiments employing transformer-based architectures across various NLP tasks, enhancing the application of AI in complex scenarios.
-- **Retrieval-Augmented Generation (RAG):** Deployed a RAG system integrating LLMs with external files to offer interactive QA capabilities.
-- **Pipeline DuckDB and AI:** Designed ETL processes integrated with an API for data extraction, leveraging DuckDB for data transformation, and AI for report automation and recommendation generation.
+---
 
-### 2020 – 2024  
+## Professional Experience
+
+### 2024 ï¿½ Present
+**AI Projects**
+- **Data Dictionary GenAI**: Developed an AI-powered tool using LLMs to generate data dictionaries, enhancing data documentation efficiency.
+- **Data Pipeline AI**: Developed an AI-powered app to interact with flight prices in PostgreSQL, featuring functionalities for database updates and AI-driven natural language querying.
+- **Agno AI Labs**: Led transformer-based NLP experiments, applying models to diversified tasks.
+- **Retrieval-Augmented Generation**: Implemented systems combining LLMs with external data, enhancing QA capabilities.
+- **Pipeline DuckDB and AI**: Created ETL with DuckDB for efficient data transformation, automated reporting, and AI-powered summarization and recommendations.
+
+### 2020 ï¿½ 2024
 **Data Scientist | Food Lion | Salisbury, NC**
+- Spearheaded model tuning and validation, incorporating A/B testing and statistical techniques ensuring model robustness and business alignment.
+- Segmented customers using PCA with KMeans and Gaussian Mixture Models.
+- Developed optimization algorithms reducing labor and space in stores by 30%.
+- Collaborated with cross-functional teams for privacy-focused HR dashboards.
+- Established reliable data pipelines using PySpark and SQL, elevating e-commerce system integrity.
+- Forecasted store traffic with accurate regression and time series models.
+- Enhanced ETL pipelines in Databricks, improving system integration and decision accuracy by 20%.
 
-- Spearheaded model tuning and validation using A/B testing techniques, increasing model effectiveness and alignment with business objectives.
-- Employed advanced customer segmentation techniques with PCA, KMeans, and Gaussian Mixture Models.
-- Implemented an optimization algorithm resulting in a 30% reduction in labor and space requirements in store front-ends.
-- Developed privacy-focused dashboards for HR incident tracking ensuring secure and compliant data reporting.
-- Constructed and managed data quality checks and data pipelines with PySpark and SQL, enhancing data integrity across systems.
-- Enhanced store traffic forecasting algorithms, reducing prediction error rates to under 2%.
-- Architected robust ETL pipelines in Databricks leading to improved data quality and integration, achieving a 20% improvement in store selection accuracy.
-
-### 2012 – 2019  
-**Data Analyst | IBM | Hortolândia, SP, Brazil**
-
-- Constructed and automated dashboards for KPI and forecast tracking using SQL, Excel, and Visual Basic, providing crucial support for executive decision-making.
-- Analyzed financial and operational metrics for IT projects to align with broader strategic goals.
-- Developed semi-automated templates resulting in a 99% decrease in input errors and a 70% reduction in processing lead time.
+### 2012 ï¿½ 2019
+**Data Analyst | IBM | Hortolï¿½ndia, SP, Brazil**
+- Automated KPI and forecast dashboards with SQL, Excel, and Visual Basic for executive-level reporting.
+- Conducted crucial financial and operational analyses aligning with strategic IT initiatives.
+- Implemented semi-automated templates significantly decreasing errors and processing time, ensuring governance.
 
 ---
 
-## EDUCATION
+## Education
 
-- **2023:** MBA Data Science and Analytics, University of São Paulo (USP), Brazil
-- **2020:** Data Scientist Professional, Data Science Academy
-- **2020:** Data Science and Big Data Analytics Extension, MIT, Online
-- **2006:** MBA Marketing, Fundação Getúlio Vargas (FGV), Brazil
-
----
-
-## PUBLICATIONS & THOUGHT LEADERSHIP
-
-- *Your AI Partner:* A detailed guide on generative AI applications available on Amazon.
-- *Data Wrangling with R:* Published by Packt Publishing, covering advanced data manipulation techniques.
-- Developed online courses on Udemy focusing on practical data science methodologies.
+- **2023** | University of Sï¿½o Paulo (USP), Brazil ï¿½ MBA in Data Science and Analytics.
+- **2020** | Data Science Academy ï¿½ Data Scientist Professional Certification.
+- **2020** | MIT, Online ï¿½ Data Science and Big Data Analytics Extension.
+- **2006** | Fundaï¿½ï¿½o Getï¿½lio Vargas (FGV), Brazil ï¿½ MBA in Marketing.
 
 ---
 
-## ONLINE PRESENCE
+## Publications & Thought Leadership
 
-- LinkedIn: [linkedin.com/in/gurezende](https://www.linkedin.com/in/gurezende/)
-- Medium: [gustavorsantos.medium.com](https://gustavorsantos.medium.com)
-- GitHub: [github.com/gurezende](https://github.com/gurezende)
-- Portfolio: [gustavorsantos.me](https://gustavorsantos.me)
+- **Your AI Partner**: A guide on generative AI, available on Amazon.
+- **Data Wrangling with R**: Published techniques for data manipulation via Packt Publishing.
+- Online courses on Udemy focusing on data science methodologies.
+
+---
+
+## Online Presence
+
+- **LinkedIn**: [linkedin.com/in/gurezende](https://www.linkedin.com/in/gurezende)
+- **Medium Blog**: [gustavorsantos.medium.com](https://gustavorsantos.medium.com)
+- **GitHub**: [GitHub Profile](https://bit.ly/3g3Xbde)
+- **Portfolio**: [gustavorsantos.me](https://gustavorsantos.me)

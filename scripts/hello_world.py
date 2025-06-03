@@ -15,9 +15,7 @@ agent = Agent(
     )
 
 # Run agent
-response = agent.run("What's the weather like in NYC for each month of the year?")
-
-# Print response
-print(response.content)
+response = agent.print_response("What's the weather like in NYC for each month of the year?",
+                                markdown=True)
 
 
