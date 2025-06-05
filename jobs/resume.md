@@ -28,7 +28,7 @@ Data Scientist | Food Lion | Salisbury, NC
 Led model tuning and validation efforts, incorporating A/B testing and statistical techniques to ensure model robustness and business alignment.
 Applied customer segmentation techniques using algorithms like PCA combined with KMeans and Gaussian Mixture Model.
 Implemented an optimization algorithm that reduced labor and space in stores' front-end by up to 30%.
-Partnered with cross-functional teams to implement privacy-conscious dashboards for HR incident tracking, enabling secure and compliant reporting.
+Partnered with cross-functional teams to implement dashboards for HR incident tracking, enabling secure and compliant reporting.
 Created data quality checks and built data pipelines in PySpark and SQL, ensuring integrity across e-commerce systems.
 Developed and tuned models using regression and time series approaches to forecast store traffic, reducing percent error to under 2%.
 Designed and implemented ETL pipelines in Databricks, improving data quality and system integration, leading to a 20% increase in store selection accuracy.
@@ -40,10 +40,10 @@ Conducted financial and operational analysis for IT projects, aligning reporting
 Implemented semi-automated templates that cut input errors by 99% and reduced lead time by 70%, enabling greater visibility and governance.
 
 EDUCATION
-2023 | University of São Paulo (USP), Brazil — MBA Data Science and Analytics.
-2020 | Data Science Academy — Data Scientist Professional.
-2020 | MIT, Online — Data Science and Big Data Analytics Extension.
-2006 | Fundação Getúlio Vargas (FGV), Brazil — MBA Marketing 
+University of São Paulo (USP), Brazil — MBA Data Science and Analytics.
+Data Science Academy — Data Scientist Professional.
+MIT, Online — Data Science and Big Data Analytics Extension.
+Fundação Getúlio Vargas (FGV), Brazil — MBA Marketing 
 
 PUBLICATIONS & THOUGHT LEADERSHIP
 Your AI Partner: A comprehensive guide on generative AI and its applicability in daily life, available on Amazon.

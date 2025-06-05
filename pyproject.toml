@@ -34,5 +34,6 @@ dependencies = [
     "streamlit>=1.45.0",
     "tantivy>=0.22.2",
     "wikipedia>=1.4.0",
+    "yfinance>=0.2.61",
     "youtube-transcript-api>=1.0.3",
 ]

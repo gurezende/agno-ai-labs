@@ -51,6 +51,7 @@ profiler_agent = Agent(
     expected_output=dedent("""A structured list of job requirements, including necessary skills, 
                               qualifications, and experiences and how they align with the 
                               candidate's skills and experience."""),
+    add_name_to_instructions=True,
     markdown=True,
     show_tool_calls=True,
     add_datetime_to_instructions=True)
@@ -77,6 +78,7 @@ writer_agent = Agent(
     """),
     context={'resume':get_resume_file},
     add_context=True,
+    add_name_to_instructions=True,
     expected_output=dedent("An ATS optimized resume that fits perfectly with the job requirements."),
     markdown=True,
     show_tool_calls=True,
@@ -98,6 +100,9 @@ resume_team = Team(
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
     # model=OpenAIChat(id="gpt-4o", api_key=os.environ.get("OPENAI_API_KEY")),
     tools=[FileTools(base_dir=Path("./jobs"), read_files=True, save_files=True)],
+    share_member_interactions=True,
+    show_members_responses=True,
+    # enable_agentic_context=True,
     expected_output="A tailored resume that fits perfectly with the job requirements, saved to a file named 'tailored_resume.md'.",
     markdown=True,
     monitoring=True

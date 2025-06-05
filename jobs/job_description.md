@@ -1,22 +1,31 @@
-What you'll do
+Anaconda is seeking Senior Data Scientist  to join our internal Data & Analytics team. You will be working closely with our Product, Engineering, and Marketing teams as we roll out our new AI tools. Build out ML models including customer lifetime value, churn prediction, onboarding optimization, customer segmentation, sentiment analysis, anomaly detection and more.  This is an amazing opportunity for you to leverage your experience and skills to help Anaconda push the limits of what's possible with data science and AI.
 
-Lead the end-to-end development of statistical models and data analysis, managing projects from concept to delivery.
-Work closely with various go-to-market teams to solve complex business challenges, driving revenue growth for the company.
-Present data findings to executives in a clear and actionable manner
-Empower team growth by upholding our standards and fostering a culture of excellence and collaboration
 
-What you'll bring
 
-We're looking for an experienced and passionate data scientist who is eager to collaborate with sales, marketing, revenue, and other departments and provide data-driven solutions to business leaders. If you excel at statistical modeling and data driven storytelling, all while being motivated by solving critical business problems, we'd love to talk with you!
+What You'll Do:
 
-The minimum qualifications for this role include:
+Develop and implement advanced machine learning models and algorithms to solve complex business problems
+Analyze large datasets using Python and other relevant tools in the Anaconda ecosystem
+Collaborate with stakeholders to identify opportunities for data-driven solutions
+Design and conduct statistical experiments to test hypotheses and validate results
+Create data visualizations and dashboards to communicate insights effectively
+Present results to stakeholders across the organization including senior leadership
+Contribute to the development of Anaconda's open-source data science tools and libraries
+Optimize data pipelines and workflows for improved efficiency and scalability
+Mentor junior data scientists and provide technical guidance to team members
+Participate in the data science community through conferences, workshops, and publications
+What You Need:
 
-7+ years of experience as a data scientist working with non-technical stakeholders
-5+ years of experience leveraging Python for model development and experience with several ML frameworks such as, scikitlearn, pandas, numpy, etc..
-Broad and deep expertise in statistical, ML and AI methods, with a focus on solving business-oriented problems such as customer lifetime value prediction, churn analysis, and segmentation
+Strong proficiency in Python programming and its data science libraries (NumPy, Pandas, Scikit-learn) and implementing machine learning techniques (6+ years)
+Solid understanding of statistical analysis and hypothesis testing, and their practical applications
+Proficiency in using Git for version control and collaborative development
+Experience with SQL and NoSQL databases, including Snowflake or similar  SQL cloud data warehouses
+Hands-on experience with AWS or equivalent cloud services
+Excellent communication skills to present complex findings to both technical and non-technical audiences
+Track record of delivering data-driven solutions in a professional setting
+You embody our values of Clarity, Care and Candor
+Care deeply about fostering an environment where people of all backgrounds and experiences can flourish 
+What Will Make You Stand Out:
 
-Preferred qualifications for this role include:
-
-Comfortable leading projects in an ambiguous environment and defining processes
-Experience with model services, deployment technologies, and ML-Ops practices
-Familiar with cloud services and databases such as GCP, AWS, and Azure
+Experience deploying and maintaining multiple machine learning models through to production that delivered quantifiable results
+Demonstrated success working for freemium or open source SaaS products in a cross functional environment

@@ -10,7 +10,7 @@ from agno.tools.googlesearch import GoogleSearchTools
 
 
 # ------------------------- Define the Topic --------------------------------
-topic = "When to use Python Custom Functions and When to use Classes"
+topic = "What is the difference between CTE and Sub-query in SQL?"
 # ---------------------------------------------------------------------------
 
 
@@ -82,7 +82,6 @@ writer = Agent(
                 If you saved the article, end the job and send it to the 'Editor'.            
                 \
                 """),
-    tools=[FileTools(read_files=True, save_files=True)],
     add_name_to_instructions=True,
     expected_output=dedent("""\
                            A blog post article in markdown format with approximately 700 words with the following structure:
@@ -116,6 +115,7 @@ editor = Agent(
                 """),
     expected_output= "A revised blog post article in markdown format saved to a file named 'coding_article.md'.",
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    tools=[FileTools(read_files=True, save_files=True)],
     add_name_to_instructions=True,
     exponential_backoff=True,
     delay_between_retries=5
@@ -135,7 +135,7 @@ illustrator = Agent(
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
     add_name_to_instructions=True,
     exponential_backoff=True,
-    delay_between_retries=5
+    delay_between_retries=3
 )
 
 # Create a team with these agents
@@ -154,11 +154,12 @@ writing_team = Team(
                         \
                         """),
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
-    expected_output="A blog post article with approximately 700 words about {topic} saved to a file named 'coding_article.md' and a prompt for AI to generate a picture saved to a file named 'prompt.txt'.",
+    expected_output="A blog post article with approximately 700 words saved to a file named 'coding_article.md' and a prompt text for AI to generate a picture saved to a file named 'prompt.txt'.",
     enable_agentic_context=True,
+    share_member_interactions=True,
+    show_members_responses=True,
     markdown=True,
-    monitoring=True,
-    show_members_responses=True
+    monitoring=True
 )
 
 # Run the team with a task
