@@ -16,7 +16,7 @@ vector_db = Qdrant(collection=COLLECTION_NAME, location=":memory:")
 
 # Create PDF the knowledge base
 pdf_knowledge_base = PDFKnowledgeBase(
-    path= Path("C:/Users/gurez/OneDrive/Área de Trabalho/attention-is-all-you-need-Paper.pdf"),
+    path= Path("C:/Users/gurez/OneDrive/Área de Trabalho/Create an AI Agent with RAG in Two Simple Steps.pdf"),
     vector_db= vector_db,
     reader=PDFReader(chunk=True)
 )
@@ -38,7 +38,7 @@ agent = Agent(
 if __name__ == "__main__":
     
     # Prompt
-    prompt = "What is attention? Explain in simple terms"
+    prompt = "What are the references in the PDF?"
 
     # Load the knowledge base, comment out after first run
     # Set recreate to True to recreate the knowledge base if needed

@@ -59,8 +59,8 @@ profiler_agent = Agent(
 # Writer Agent
 writer_agent = Agent(
     name="Writer",
-    # model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
-    model=OpenAIChat(id="gpt-4o", api_key=os.environ.get("OPENAI_API_KEY")),
+    model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
+    # model=OpenAIChat(id="gpt-4o", api_key=os.environ.get("OPENAI_API_KEY")),
 
     description=dedent("""\
         You are an experienced HR professional that is expert in writing compelling resumes for job interviews.
@@ -70,8 +70,10 @@ writer_agent = Agent(
     instructions=dedent("""\
         Analyze the output from the 'Profiler'.
         Use your context to read the candidate's 'resume' to match the most important requirements to the job requirements.
+        Leverage and rephrase the candidate's experiences to align with the job requirements and ATS keywords. 
         Use relevant experiences and projects from the candidate's GitHub profile 'https://github.com/gurezende'.
         Do not make up information about the candidate experience or projects.
+        Do not add skills that the candidate does not have.
         Keep the resume structure, and enhance the content to align with the job requirements.
         Write an ATS optimized resume that highlights your skills and experience, and explains your qualifications to potential employers.
     \
@@ -112,5 +114,5 @@ resume_team = Team(
 prompt = "Create a tailored and ATS optimized version of 'resume' that fits perfectly with the job requirements for 'job_description'."
 
 # Run the team with a task
-resume_team.print_response(prompt)
+resume_team.print_response(prompt, stream=True)
 

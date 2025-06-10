@@ -4,13 +4,12 @@ from textwrap import dedent
 from agno.agent import Agent
 from agno.models.google import Gemini
 from agno.team import Team
-from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.tools.file import FileTools
 from agno.tools.googlesearch import GoogleSearchTools
 
 
 # ------------------------- Define the Topic --------------------------------
-topic = "What is the difference between CTE and Sub-query in SQL?"
+topic = "Optimization with Scipy"
 # ---------------------------------------------------------------------------
 
 
@@ -49,7 +48,6 @@ coder = Agent(
     expected_output="A script to be passed to the 'Writer'.",
     add_name_to_instructions=True,
     tools=[GoogleSearchTools()],
-           #FileTools(read_files=True, save_files=True)],
     model=Gemini(id="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY")),
     exponential_backoff=True,
     delay_between_retries=5
@@ -78,11 +76,11 @@ writer = Agent(
                  - Use real life examples.
                 3. Explain the code you received from the 'Coder' agent and give examples of real life applications.
                 4. Include the links, references, and sources of coding documentation.
-                Save the article to a file named 'coding_article.md'.
-                If you saved the article, end the job and send it to the 'Editor'.            
+                Once done, save the article to a file named 'article.md' and send the article to the 'Editor'.
                 \
                 """),
     add_name_to_instructions=True,
+    tools=[FileTools(read_files=True, save_files=True)],
     expected_output=dedent("""\
                            A blog post article in markdown format with approximately 700 words with the following structure:
                            - Title
@@ -110,7 +108,6 @@ editor = Agent(
                 Fact check the links and sources. 2 times is enough.
                 Keep track of how many checks you did, so you don't fall into a loop of checking.
                 Once you can't find any errors, save the revised article to a file named 'coding_article.md' and end the job.
-                If you saved the article, end the job.
                 \
                 """),
     expected_output= "A revised blog post article in markdown format saved to a file named 'coding_article.md'.",
@@ -163,4 +160,5 @@ writing_team = Team(
 )
 
 # Run the team with a task
-writing_team.print_response("Create an article about: {topic} .")
+writing_team.print_response("Create an article about: {topic}.",
+                            stream_intermediate_steps=True)

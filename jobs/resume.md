@@ -6,7 +6,7 @@ Innovative Data Scientist with over a decade of experience in machine learning, 
 
 SKILLS
 Programming Languages: Python, R, SQL
-AI & Machine Learning: Deep Learning, LLMs (BERT, GPT variations), Transformer Architectures, Model Deployment, A/B Testing
+AI & Machine Learning: Deep Learning, LLMs, Transformer Architectures, Model Deployment, A/B Testing
 Big Data & Cloud Technologies: Apache Spark, Hadoop, Databricks
 Tools & Frameworks: Keras, PyTorch, MLFlow, FastAPI, Docker
 Data Visualization: Power BI, Tableau, Seaborn, Matplotlib
