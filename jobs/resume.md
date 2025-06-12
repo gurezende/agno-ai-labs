@@ -9,7 +9,7 @@ Programming Languages: Python, R, SQL
 AI & Machine Learning: Deep Learning, LLMs, Transformer Architectures, Model Deployment, A/B Testing
 Big Data & Cloud Technologies: Apache Spark, Hadoop, Databricks
 Tools & Frameworks: Keras, PyTorch, MLFlow, FastAPI, Docker
-Data Visualization: Power BI, Tableau, Seaborn, Matplotlib
+Data Visualization: Power BI, Tableau, Plotly, Seaborn, Matplotlib
 Databases: PostgreSQL, MySQL, DuckDB
 Others: API Design, Data Pipeline Automation, Data Analysis
 

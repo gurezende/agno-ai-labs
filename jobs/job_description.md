@@ -1,42 +1,28 @@
-Job description
-As a Consult Partner, you will have a pivotal role in driving profitable growth, leveraging our comprehensive capabilities to build strong client relationships, and leading your team to success. This role demands a strong presence, industry expertise, and the ability to cultivate relationships with CXO-level clients. Your leadership will be critical in fostering talent development and innovation within the organization.
+Your role at Clorox:
+As an Analytics Manager for the Analytics Capability Enablement (ACE) Team you'll have the unique opportunity to drive meaningful change in how we utilize both first-party and third-party data. Our team is dedicated to enhancing business intelligence capabilities, facilitating advanced analytics on demand, and streamlining data processing, by collaborating with various teams such as Marketing, Brand Insights, Brand Engagement, and Web Development, as well as external partners. You'll play a crucial role in supporting our measurement framework, integrated reports and dashboards, and further developing our Analytics capabilities in business processes.
 
-This role will also be leading the overall client engagement and delivering high quality client work alongside senior client stakeholders. Working in a transaction environment which may be pre or post deal, planning post deal implementation, and ultimately supporting execution. Partners will be focused on financial impact, utilization and contribution, client impact and leadership.
+Key Responsibilities:
+Empower internal marketing strategy and operation groups with the necessary tools, skills, and capabilities to drive measurement, insights, and optimization
+Collaborate with various business partners, marketing analytics/data scientists, and agencies to improve marketing optimization through effective communication.
+Presenting with and influencing cross-functional business partners, marketing analytics/data scientists, and agencies to propel marketing optimization
+Thrive in a high energy environment where tactical and strategic activities are expected to be driven in parallel.
+Explore and embed emerging Marketing Technology, Data & Analytics Capabilities that enables agile business decision-making
+Innovate and explore emerging Marketing Technology, Data & Analytics.
+Stay up-to-date with the latest analytics tools, technologies, and methodologies.
+Support the long-term vision and architecture for data pipelines and data management to meet the dynamic global data needs of the Marketing Team
 
-Contribute to Profitable Growth:
-Drive significant financial outcomes through signings and revenue targets
-Ensure sustained growth and profitability, managing margin expectations and backlog growth
-Support the identification, pursuit and conversion of a pipeline of business development opportunities
-Undertake scoping and fee negotiation on engagements, while enduring profitability and understanding and containing risk
+What we look for:
 
-Client Engagement:
-Build and maintain deep relationships with client CXOs and be seen as the 'go to' person and a trusted advisor by senior executives
-Leading C-level client interactions and consulting initiatives, deliverables and outputs of a deal engagement
-Demonstrate credibility and experience to advise and deliver on complex consulting engagement
-Enhance client satisfaction, as measured by Net Promoter Score (NPS) and new relationship development; Secure client references
+Education & Experience
 
-Operational Excellence:
-Achieve individual and team utilization targets
-Lead the design of complex engagements and take responsibility for oversight of delivery, ensuring high performance and customer satisfaction
-Leadership, Management, People
-Lead by example; Fostering a culture of continuous personal and professional development and challenging our people to be curious and innovative and supportive for each other. At the same time ensuring that all outcomes are commercially focused, value adding and effectively executed
+Bachelor's degree or higher in analytics, data science, statistics, computer science, or other relevant quantitative field. MS preferred. 
+5-7+ years of relevant business experience with bachelor's, or 3-5+ years with graduate degree.
+Relevant work experience is essential. Candidates should have a track record in data processing, business intelligence, and analytics.
 
-Strategic Contribution:
-Utilize industry and technology expertise to shape and drive the company's strategic initiatives.
-Align with Kyndryl's strategic vision and contribute to its execution.
-Drive external eminence and innovation, establishing a strong personal and organizational brand in the industry.
-Proactively develop thought leadership and intellectual capital
-
-Kyndryl currently does not require employees to be fully vaccinated against COVID-19, however, if you are hired to work at a client, customer, or partner location, you may be required to show proof of vaccination to align with their respective COVID-19 vaccination policies.  Those who believe they are eligible may apply for a medical or religious accommodation prior to the start of employment.
-
-Required Skills and Experience
-
-Lean Six Sigma 
-Extensive experience in client engagement and relationship management at the CXO level
-Demonstrable ability to build and commercialize relationships with senior executives
-Proven track record of leading and executing complex projects with multi-disciplinary teams in a consulting, corporate or public sector environment
-Effective financial acumen with experience in driving revenue growth and managing margins
-Experience of managing or supporting high-value business development activities with senior stakeholders
-Deep understanding of industry trends and technology
-Sound personal brand and presence in the industry
-Demonstrated ability to innovate and drive change
+Skills
+Experience with data visualization including development, deployment, and optimization (Power BI, Tableau, etc.).
+Strong proficiency in SQL, Python, ETL processes, and data analytics tools is highly desirable.
+Experience with statistical analyses and market research tools (muti-touch attribution, marketing mix models, A/B testing), syndicated POS and panel data systems, and other analyses. 
+Proficiency in cloud-based data platforms, including Google Cloud Platform (GCP), Amazon Web Services (AWS), and Azure Databricks.
+Familiarity with large-scale data automation ecosystems including data management, governance, and integration.
+Experience with API development is advantageous.
