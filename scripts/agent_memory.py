@@ -4,6 +4,7 @@ from agno.agent import Agent
 from agno.memory.v2.db.sqlite import SqliteMemoryDb
 from agno.memory.v2.memory import Memory
 from agno.models.google import Gemini
+from agno.models.openai import OpenAIChat
 from rich.pretty import pprint
 
 # User Name
@@ -13,8 +14,7 @@ user_id = "data_scientist"
 memory = Memory(
     db=SqliteMemoryDb(table_name="memory", 
                       db_file="tmp/memory.db"),
-    model=Gemini(id="gemini-2.0-flash", 
-                 api_key=os.environ.get("GEMINI_API_KEY"))
+    model=OpenAIChat(id="gpt-4.1")
                  )
 
 # Clear the memory before start

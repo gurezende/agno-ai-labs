@@ -1,5 +1,7 @@
 # Imports
 import os
+from dotenv import load_dotenv
+load_dotenv()
 from agno.agent import Agent
 from agno.models.google import Gemini
 from youtube_transcript_api import YouTubeTranscriptApi

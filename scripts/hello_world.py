@@ -6,7 +6,9 @@ import os
 # Create agent
 agent = Agent(
     model= Gemini(id="gemini-1.5-flash",
-                  api_key = os.environ.get("GEMINI_API_KEY")),
+                  api_key = os.environ.get("GEMINI_API_KEY"),
+                  vertexai=False, project_id='gen-lang-client-0295839245'
+                  ),
     description= "An assistant agent",
     instructions= ["Be sucint. Return a markdown table"],
     expected_output= "A table with month, season and average temperature",	

@@ -4,6 +4,7 @@ import os
 from agno.tools.firecrawl import FirecrawlTools
 from agno.tools.file import FileTools
 from pathlib import Path
+import dotenv
 
 url = "https://en.wikipedia.org/wiki/List_of_largest_banks"
 
